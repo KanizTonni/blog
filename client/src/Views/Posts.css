@@ -1,0 +1,54 @@
+.posts {
+    padding: 10px;
+}
+
+.posts h2 {
+    color: #2E4053;
+}
+
+.post-input-container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.prev-post-container {
+    border: 2px solid #2E4053;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.prev-posts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.content {
+    font-size: 18px;
+}
+
+.prev-post-container input {
+    border: 1px solid grey;
+}
+
+.operation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.time-date {
+    font-size: 14px;
+}
+
+.prev-post-container button {
+    border: none;
+    margin: 10px;
+    font-size: 14px;
+}
